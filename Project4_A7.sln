@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryItPage_A7", "TryItPage_A7\TryItPage_A7.csproj", "{C1735FBC-44D5-4C55-843F-F5D6C393AEC7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{905A5C99-CAAA-4FCD-8FEB-A03FCF14E6F2} = {905A5C99-CAAA-4FCD-8FEB-A03FCF14E6F2}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xmlService", "xmlService\xmlService.csproj", "{905A5C99-CAAA-4FCD-8FEB-A03FCF14E6F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1735FBC-44D5-4C55-843F-F5D6C393AEC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1735FBC-44D5-4C55-843F-F5D6C393AEC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1735FBC-44D5-4C55-843F-F5D6C393AEC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1735FBC-44D5-4C55-843F-F5D6C393AEC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{905A5C99-CAAA-4FCD-8FEB-A03FCF14E6F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{905A5C99-CAAA-4FCD-8FEB-A03FCF14E6F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{905A5C99-CAAA-4FCD-8FEB-A03FCF14E6F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{905A5C99-CAAA-4FCD-8FEB-A03FCF14E6F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9853F9F8-2A24-4BB6-B3FF-BEE293AC0F49}
+	EndGlobalSection
+EndGlobal
